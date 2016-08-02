@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294AA8D81D4FC6B000975144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8D71D4FC6B000975144 /* AppDelegate.swift */; };
+		294AA8DA1D4FC6B000975144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8D91D4FC6B000975144 /* ViewController.swift */; };
+		294AA8DD1D4FC6B000975144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8DB1D4FC6B000975144 /* Main.storyboard */; };
+		294AA8DF1D4FC6B000975144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8DE1D4FC6B000975144 /* Assets.xcassets */; };
+		294AA8E21D4FC6B000975144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8E01D4FC6B000975144 /* LaunchScreen.storyboard */; };
+		294AA8ED1D4FC6B000975144 /* TheatreBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8EC1D4FC6B000975144 /* TheatreBudUITests.swift */; };
+		4F859EB449E1DE00D4D44791 /* Pods_TheatreBudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFDF4AE55BB9683B9D843FE /* Pods_TheatreBudUITests.framework */; };
+		64AF95BB4AF3C1EB4FA0D63D /* Pods_TheatreBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B946726D6C8F6BE3381715B /* Pods_TheatreBud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		294AA8E91D4FC6B000975144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294AA8CC1D4FC6AF00975144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294AA8D31D4FC6AF00975144;
+			remoteInfo = TheatreBud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		294AA8D41D4FC6AF00975144 /* TheatreBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheatreBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		294AA8D71D4FC6B000975144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		294AA8D91D4FC6B000975144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		294AA8DC1D4FC6B000975144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		294AA8DE1D4FC6B000975144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		294AA8E11D4FC6B000975144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		294AA8E31D4FC6B000975144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294AA8E81D4FC6B000975144 /* TheatreBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheatreBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294AA8EC1D4FC6B000975144 /* TheatreBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreBudUITests.swift; sourceTree = "<group>"; };
+		294AA8EE1D4FC6B000975144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B946726D6C8F6BE3381715B /* Pods_TheatreBud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheatreBud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEAEDBAE5381F2E4F494E16 /* Pods-TheatreBudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBudUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		630E7404CBB28642D18B6224 /* Pods-TheatreBudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBudUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84476A5A4FCF147240000DF4 /* Pods-TheatreBud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBud.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBud/Pods-TheatreBud.release.xcconfig"; sourceTree = "<group>"; };
+		DAFDF4AE55BB9683B9D843FE /* Pods_TheatreBudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheatreBudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E010283ACD9D691F898A42FC /* Pods-TheatreBud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBud/Pods-TheatreBud.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294AA8D11D4FC6AF00975144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AF95BB4AF3C1EB4FA0D63D /* Pods_TheatreBud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294AA8E51D4FC6B000975144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F859EB449E1DE00D4D44791 /* Pods_TheatreBudUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		294AA8CB1D4FC6AF00975144 = {
+			isa = PBXGroup;
+			children = (
+				294AA8D61D4FC6B000975144 /* TheatreBud */,
+				294AA8EB1D4FC6B000975144 /* TheatreBudUITests */,
+				294AA8D51D4FC6AF00975144 /* Products */,
+				432BD39BEE321E176E6C1764 /* Pods */,
+				F5BCC1693CC047202B23CEAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		294AA8D51D4FC6AF00975144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294AA8D41D4FC6AF00975144 /* TheatreBud.app */,
+				294AA8E81D4FC6B000975144 /* TheatreBudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294AA8D61D4FC6B000975144 /* TheatreBud */ = {
+			isa = PBXGroup;
+			children = (
+				294AA8D71D4FC6B000975144 /* AppDelegate.swift */,
+				294AA8D91D4FC6B000975144 /* ViewController.swift */,
+				294AA8DB1D4FC6B000975144 /* Main.storyboard */,
+				294AA8DE1D4FC6B000975144 /* Assets.xcassets */,
+				294AA8E01D4FC6B000975144 /* LaunchScreen.storyboard */,
+				294AA8E31D4FC6B000975144 /* Info.plist */,
+			);
+			path = TheatreBud;
+			sourceTree = "<group>";
+		};
+		294AA8EB1D4FC6B000975144 /* TheatreBudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				294AA8EC1D4FC6B000975144 /* TheatreBudUITests.swift */,
+				294AA8EE1D4FC6B000975144 /* Info.plist */,
+			);
+			path = TheatreBudUITests;
+			sourceTree = "<group>";
+		};
+		432BD39BEE321E176E6C1764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E010283ACD9D691F898A42FC /* Pods-TheatreBud.debug.xcconfig */,
+				84476A5A4FCF147240000DF4 /* Pods-TheatreBud.release.xcconfig */,
+				630E7404CBB28642D18B6224 /* Pods-TheatreBudUITests.debug.xcconfig */,
+				3CEAEDBAE5381F2E4F494E16 /* Pods-TheatreBudUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5BCC1693CC047202B23CEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B946726D6C8F6BE3381715B /* Pods_TheatreBud.framework */,
+				DAFDF4AE55BB9683B9D843FE /* Pods_TheatreBudUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		294AA8D31D4FC6AF00975144 /* TheatreBud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294AA8F11D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBud" */;
+			buildPhases = (
+				187829CC57A1338F80A906A6 /* 📦 Check Pods Manifest.lock */,
+				294AA8D01D4FC6AF00975144 /* Sources */,
+				294AA8D11D4FC6AF00975144 /* Frameworks */,
+				294AA8D21D4FC6AF00975144 /* Resources */,
+				9917D82BFE2994F0787FA778 /* 📦 Embed Pods Frameworks */,
+				FE28448EFEAE9426BCC10CDA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheatreBud;
+			productName = TheatreBud;
+			productReference = 294AA8D41D4FC6AF00975144 /* TheatreBud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		294AA8E71D4FC6B000975144 /* TheatreBudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294AA8F41D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBudUITests" */;
+			buildPhases = (
+				31F7C121BCB6986A345572AB /* 📦 Check Pods Manifest.lock */,
+				294AA8E41D4FC6B000975144 /* Sources */,
+				294AA8E51D4FC6B000975144 /* Frameworks */,
+				294AA8E61D4FC6B000975144 /* Resources */,
+				213A7896982A149CDFE0AA92 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294AA8EA1D4FC6B000975144 /* PBXTargetDependency */,
+			);
+			name = TheatreBudUITests;
+			productName = TheatreBudUITests;
+			productReference = 294AA8E81D4FC6B000975144 /* TheatreBudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		294AA8CC1D4FC6AF00975144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lab X";
+				TargetAttributes = {
+					294AA8D31D4FC6AF00975144 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FAK42UL5S7;
+					};
+					294AA8E71D4FC6B000975144 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 294AA8D31D4FC6AF00975144;
+					};
+				};
+			};
+			buildConfigurationList = 294AA8CF1D4FC6AF00975144 /* Build configuration list for PBXProject "TheatreBud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 294AA8CB1D4FC6AF00975144;
+			productRefGroup = 294AA8D51D4FC6AF00975144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294AA8D31D4FC6AF00975144 /* TheatreBud */,
+				294AA8E71D4FC6B000975144 /* TheatreBudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294AA8D21D4FC6AF00975144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294AA8E21D4FC6B000975144 /* LaunchScreen.storyboard in Resources */,
+				294AA8DF1D4FC6B000975144 /* Assets.xcassets in Resources */,
+				294AA8DD1D4FC6B000975144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294AA8E61D4FC6B000975144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187829CC57A1338F80A906A6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		213A7896982A149CDFE0AA92 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31F7C121BCB6986A345572AB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9917D82BFE2994F0787FA778 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheatreBud/Pods-TheatreBud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE28448EFEAE9426BCC10CDA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheatreBud/Pods-TheatreBud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294AA8D01D4FC6AF00975144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294AA8DA1D4FC6B000975144 /* ViewController.swift in Sources */,
+				294AA8D81D4FC6B000975144 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294AA8E41D4FC6B000975144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294AA8ED1D4FC6B000975144 /* TheatreBudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294AA8EA1D4FC6B000975144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294AA8D31D4FC6AF00975144 /* TheatreBud */;
+			targetProxy = 294AA8E91D4FC6B000975144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		294AA8DB1D4FC6B000975144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294AA8DC1D4FC6B000975144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		294AA8E01D4FC6B000975144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294AA8E11D4FC6B000975144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		294AA8EF1D4FC6B000975144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		294AA8F01D4FC6B000975144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		294AA8F21D4FC6B000975144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E010283ACD9D691F898A42FC /* Pods-TheatreBud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TheatreBud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.labx.TheatreBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		294AA8F31D4FC6B000975144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84476A5A4FCF147240000DF4 /* Pods-TheatreBud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TheatreBud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.labx.TheatreBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		294AA8F51D4FC6B000975144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630E7404CBB28642D18B6224 /* Pods-TheatreBudUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TheatreBudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.labx.TheatreBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheatreBud;
+			};
+			name = Debug;
+		};
+		294AA8F61D4FC6B000975144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEAEDBAE5381F2E4F494E16 /* Pods-TheatreBudUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TheatreBudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.labx.TheatreBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheatreBud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		294AA8CF1D4FC6AF00975144 /* Build configuration list for PBXProject "TheatreBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294AA8EF1D4FC6B000975144 /* Debug */,
+				294AA8F01D4FC6B000975144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294AA8F11D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294AA8F21D4FC6B000975144 /* Debug */,
+				294AA8F31D4FC6B000975144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294AA8F41D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294AA8F51D4FC6B000975144 /* Debug */,
+				294AA8F61D4FC6B000975144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 294AA8CC1D4FC6AF00975144 /* Project object */;
+}
