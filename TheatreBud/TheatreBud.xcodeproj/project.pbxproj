@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		294AA8D81D4FC6B000975144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8D71D4FC6B000975144 /* AppDelegate.swift */; };
-		294AA8DA1D4FC6B000975144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8D91D4FC6B000975144 /* ViewController.swift */; };
+		294AA8DA1D4FC6B000975144 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8D91D4FC6B000975144 /* HomeVC.swift */; };
 		294AA8DD1D4FC6B000975144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8DB1D4FC6B000975144 /* Main.storyboard */; };
 		294AA8DF1D4FC6B000975144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8DE1D4FC6B000975144 /* Assets.xcassets */; };
 		294AA8E21D4FC6B000975144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294AA8E01D4FC6B000975144 /* LaunchScreen.storyboard */; };
 		294AA8ED1D4FC6B000975144 /* TheatreBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8EC1D4FC6B000975144 /* TheatreBudUITests.swift */; };
+		294AA8FD1D513D2700975144 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8FC1D513D2700975144 /* LoginVC.swift */; };
+		294AA8FF1D513D3500975144 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA8FE1D513D3500975144 /* SignupVC.swift */; };
+		294AA9011D513FB500975144 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 294AA9001D513FB500975144 /* GoogleService-Info.plist */; };
 		4F859EB449E1DE00D4D44791 /* Pods_TheatreBudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFDF4AE55BB9683B9D843FE /* Pods_TheatreBudUITests.framework */; };
 		64AF95BB4AF3C1EB4FA0D63D /* Pods_TheatreBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B946726D6C8F6BE3381715B /* Pods_TheatreBud.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +33,7 @@
 /* Begin PBXFileReference section */
 		294AA8D41D4FC6AF00975144 /* TheatreBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheatreBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294AA8D71D4FC6B000975144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		294AA8D91D4FC6B000975144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		294AA8D91D4FC6B000975144 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		294AA8DC1D4FC6B000975144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		294AA8DE1D4FC6B000975144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294AA8E11D4FC6B000975144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		294AA8E81D4FC6B000975144 /* TheatreBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheatreBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		294AA8EC1D4FC6B000975144 /* TheatreBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreBudUITests.swift; sourceTree = "<group>"; };
 		294AA8EE1D4FC6B000975144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294AA8FC1D513D2700975144 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		294AA8FE1D513D3500975144 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		294AA9001D513FB500975144 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B946726D6C8F6BE3381715B /* Pods_TheatreBud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheatreBud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEAEDBAE5381F2E4F494E16 /* Pods-TheatreBudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBudUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests.release.xcconfig"; sourceTree = "<group>"; };
 		630E7404CBB28642D18B6224 /* Pods-TheatreBudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheatreBudUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,11 +95,15 @@
 		294AA8D61D4FC6B000975144 /* TheatreBud */ = {
 			isa = PBXGroup;
 			children = (
+				294AA9021D515F3F00975144 /* Resources */,
+				294AA8F91D513CC800975144 /* Model */,
+				294AA8F71D513C2100975144 /* ViewModel */,
 				294AA8D71D4FC6B000975144 /* AppDelegate.swift */,
-				294AA8D91D4FC6B000975144 /* ViewController.swift */,
+				294AA8F81D513C2F00975144 /* ViewController */,
 				294AA8DB1D4FC6B000975144 /* Main.storyboard */,
 				294AA8DE1D4FC6B000975144 /* Assets.xcassets */,
 				294AA8E01D4FC6B000975144 /* LaunchScreen.storyboard */,
+				294AA9001D513FB500975144 /* GoogleService-Info.plist */,
 				294AA8E31D4FC6B000975144 /* Info.plist */,
 			);
 			path = TheatreBud;
@@ -106,6 +116,37 @@
 				294AA8EE1D4FC6B000975144 /* Info.plist */,
 			);
 			path = TheatreBudUITests;
+			sourceTree = "<group>";
+		};
+		294AA8F71D513C2100975144 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		294AA8F81D513C2F00975144 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				294AA8D91D4FC6B000975144 /* HomeVC.swift */,
+				294AA8FC1D513D2700975144 /* LoginVC.swift */,
+				294AA8FE1D513D3500975144 /* SignupVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		294AA8F91D513CC800975144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		294AA9021D515F3F00975144 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		432BD39BEE321E176E6C1764 /* Pods */ = {
@@ -135,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294AA8F11D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBud" */;
 			buildPhases = (
-				187829CC57A1338F80A906A6 /* 📦 Check Pods Manifest.lock */,
+				187829CC57A1338F80A906A6 /* [CP] Check Pods Manifest.lock */,
 				294AA8D01D4FC6AF00975144 /* Sources */,
 				294AA8D11D4FC6AF00975144 /* Frameworks */,
 				294AA8D21D4FC6AF00975144 /* Resources */,
-				9917D82BFE2994F0787FA778 /* 📦 Embed Pods Frameworks */,
-				FE28448EFEAE9426BCC10CDA /* 📦 Copy Pods Resources */,
+				9917D82BFE2994F0787FA778 /* [CP] Embed Pods Frameworks */,
+				FE28448EFEAE9426BCC10CDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,11 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294AA8F41D4FC6B000975144 /* Build configuration list for PBXNativeTarget "TheatreBudUITests" */;
 			buildPhases = (
-				31F7C121BCB6986A345572AB /* 📦 Check Pods Manifest.lock */,
+				31F7C121BCB6986A345572AB /* [CP] Check Pods Manifest.lock */,
 				294AA8E41D4FC6B000975144 /* Sources */,
 				294AA8E51D4FC6B000975144 /* Frameworks */,
 				294AA8E61D4FC6B000975144 /* Resources */,
-				213A7896982A149CDFE0AA92 /* 📦 Copy Pods Resources */,
+				213A7896982A149CDFE0AA92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +259,7 @@
 				294AA8E21D4FC6B000975144 /* LaunchScreen.storyboard in Resources */,
 				294AA8DF1D4FC6B000975144 /* Assets.xcassets in Resources */,
 				294AA8DD1D4FC6B000975144 /* Main.storyboard in Resources */,
+				294AA9011D513FB500975144 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +273,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		187829CC57A1338F80A906A6 /* 📦 Check Pods Manifest.lock */ = {
+		187829CC57A1338F80A906A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,14 +288,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		213A7896982A149CDFE0AA92 /* 📦 Copy Pods Resources */ = {
+		213A7896982A149CDFE0AA92 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,14 +303,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheatreBudUITests/Pods-TheatreBudUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		31F7C121BCB6986A345572AB /* 📦 Check Pods Manifest.lock */ = {
+		31F7C121BCB6986A345572AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,14 +318,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9917D82BFE2994F0787FA778 /* 📦 Embed Pods Frameworks */ = {
+		9917D82BFE2994F0787FA778 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +333,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheatreBud/Pods-TheatreBud-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE28448EFEAE9426BCC10CDA /* 📦 Copy Pods Resources */ = {
+		FE28448EFEAE9426BCC10CDA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294AA8DA1D4FC6B000975144 /* ViewController.swift in Sources */,
+				294AA8FF1D513D3500975144 /* SignupVC.swift in Sources */,
+				294AA8DA1D4FC6B000975144 /* HomeVC.swift in Sources */,
+				294AA8FD1D513D2700975144 /* LoginVC.swift in Sources */,
 				294AA8D81D4FC6B000975144 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
